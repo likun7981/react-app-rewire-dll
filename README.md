@@ -18,7 +18,7 @@ In the `config-overrides.js` for [react-app-rewired](https://github.com/timarney
 
 ```javascript
 /* config-overrides.js */
-const createRewireDll = require('react-app-rewire-host');
+const createRewireDll = require('react-app-rewire-dll');
 
 module.exports = (config, env)=>{
   const rewireHost = createRewireDll(dllConfig);
